@@ -1,4 +1,4 @@
-# General ide
+# General idea
 This project proposes an innovative agent based simulation to model the non-linear dynamics of customer churn by integrating social contagion theory with a microscopic cognitive architecture. At the interaction layer, the simulation employs the non-linear $q$-voter model, where agents consult a group of $q$ neighbors to determine their behavioral state, either conforming to a unanimous consensus or flipping their opinion with a probability $\epsilon$ when disagreement occurs — a parameter that effectively simulates the impact of external marketing noise and advertising intensity. This framework introduces an internal cognitive layer for each agent using a percolation matrix, which mimics the structural breakdown of brand loyalty or the formation of new neural pathways as a "burning tree" process. The internal flammability or connectivity probability within an agent's mental grid is driven by the weighted influence of external ads and social pressure, leading to a state transition only when a spanning cluster is formed.
 
 # What will the model be used for?
